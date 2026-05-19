@@ -1,0 +1,35 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>C2C Prep - Rolling Endurance Simulation</name>
+    <description>90-minute simulation ride. Steady 70% FTP endurance base interspersed with 4-minute seated climbing rollers at 85% FTP with low cadence.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <!-- 10 Minute Warmup -->
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+        
+        <!-- Flat Sector 1: Steady Base -->
+        <SteadyState Duration="900" Power="0.70" Cadence="90" />
+        
+        <!-- Roller Peak 1: Seated Climb -->
+        <SteadyState Duration="240" Power="0.85" Cadence="72" />
+        
+        <!-- Flat Sector 2: Recovery Base -->
+        <SteadyState Duration="900" Power="0.70" Cadence="90" />
+        
+        <!-- Roller Peak 2: Seated Climb -->
+        <SteadyState Duration="240" Power="0.85" Cadence="72" />
+        
+        <!-- Flat Sector 3: Recovery Base -->
+        <SteadyState Duration="900" Power="0.70" Cadence="90" />
+        
+        <!-- Roller Peak 3: Seated Climb -->
+        <SteadyState Duration="240" Power="0.85" Cadence="72" />
+        
+        <!-- Flat Sector 4: Final Base Run -->
+        <SteadyState Duration="900" Power="0.70" Cadence="90" />
+        
+        <!-- 10 Minute Cooldown -->
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.40" />
+    </workout>
+</workout_file>
