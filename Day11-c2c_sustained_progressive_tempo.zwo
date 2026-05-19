@@ -1,0 +1,18 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>C2C Prep - Sustained Progressive Tempo</name>
+    <description>A continuous 35-minute building interval starting at a steady tempo and ending above threshold.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.75" />
+        <SteadyState Duration="300" Power="0.75" />
+        <SteadyState Duration="300" Power="0.80" />
+        <SteadyState Duration="300" Power="0.85" />
+        <SteadyState Duration="300" Power="0.90" />
+        <SteadyState Duration="300" Power="0.95" />
+        <SteadyState Duration="300" Power="1.00" />
+        <SteadyState Duration="300" Power="1.05" />
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45" />
+    </workout>
+</workout_file>
