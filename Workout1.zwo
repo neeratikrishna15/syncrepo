@@ -1,0 +1,25 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>C2C Prep - Sweet Spot Grinds</name>
+    <description>3 sets of 8 minutes at 90% FTP with a low climbing cadence (65-70 RPM) to simulate steep hills.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <!-- 10 Minute Warmup -->
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75" />
+        
+        <!-- Set 1 -->
+        <SteadyState Duration="480" Power="0.90" Cadence="68" />
+        <SteadyState Duration="240" Power="0.50" />
+        
+        <!-- Set 2 -->
+        <SteadyState Duration="480" Power="0.90" Cadence="68" />
+        <SteadyState Duration="240" Power="0.50" />
+        
+        <!-- Set 3 -->
+        <SteadyState Duration="480" Power="0.90" Cadence="68" />
+        
+        <!-- 5 Minute Cooldown -->
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.40" />
+    </workout>
+</workout_file>
