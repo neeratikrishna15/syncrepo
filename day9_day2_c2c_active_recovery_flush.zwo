@@ -1,0 +1,17 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>C2C Prep - Active Recovery Flush</name>
+    <description>30 minutes of completely flat, effortless recovery pedaling below 55% FTP to flush metabolic waste from the legs.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <!-- Gentle 5-minute ramp up into Recovery Zone -->
+        <Warmup Duration="300" PowerLow="0.35" PowerHigh="0.45" />
+        
+        <!-- Continuous effortless spin (Keep cadence light and fluid around 90-95 RPM) -->
+        <SteadyState Duration="1200" Power="0.50" Cadence="92" />
+        
+        <!-- 5-minute ramp down to finish -->
+        <Cooldown Duration="300" PowerLow="0.45" PowerHigh="0.35" />
+    </workout>
+</workout_file>
