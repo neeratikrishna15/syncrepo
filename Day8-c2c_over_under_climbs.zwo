@@ -1,0 +1,31 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>C2C Prep - Over-Under Climbs</name>
+    <description>3 blocks of 9-minute over-unders alternating between 95% and 105% FTP to build clearance capacity under high loads.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.80" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="300" Power="0.50" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="300" Power="0.50" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <SteadyState Duration="120" Power="0.95" />
+        <SteadyState Duration="60" Power="1.05" />
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.40" />
+    </workout>
+</workout_file>
