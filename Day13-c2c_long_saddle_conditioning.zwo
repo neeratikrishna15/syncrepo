@@ -1,0 +1,26 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>C2C Prep - Long Saddle Conditioning</name>
+    <description>105 minutes of steady Zone 2 base riding at 65% FTP. Use this time to focus on posture check-ins, keeping your shoulders loose and lower back comfortable.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <!-- 10 Minute Progressive Warmup -->
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.60" />
+        
+        <!-- Sector 1: First Posture Check-In -->
+        <SteadyState Duration="1500" Power="0.65" Cadence="90" />
+        
+        <!-- Sector 2: Focus on Core Engagement -->
+        <SteadyState Duration="1500" Power="0.65" Cadence="88" />
+        
+        <!-- Sector 3: Relaxing the Upper Body -->
+        <SteadyState Duration="1500" Power="0.65" Cadence="92" />
+        
+        <!-- Sector 4: Final Long-Saddle Block -->
+        <SteadyState Duration="1500" Power="0.65" Cadence="90" />
+        
+        <!-- 5 Minute Gentle Cooldown -->
+        <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.40" />
+    </workout>
+</workout_file>
