@@ -1,0 +1,24 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>C2C Route Profile Simulator</name>
+    <description>A 60-minute condensed simulation of the C2C Whitehaven route. Progresses from coastal flats to heavy alpine grinds, rollers, and a final flat run-in.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.70" />
+        
+        <SteadyState Duration="600" Power="0.75" Cadence="90" />
+        
+        <SteadyState Duration="600" Power="0.92" Cadence="65" />
+        
+        <SteadyState Duration="300" Power="0.55" Cadence="95" />
+        
+        <SteadyState Duration="720" Power="1.00" Cadence="75" />
+        
+        <IntervalsT Repeat="4" OnDuration="30" OnPower="1.15" OffDuration="90" OffPower="0.70" />
+        
+        <SteadyState Duration="300" Power="0.85" Cadence="92" />
+        
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.40" />
+    </workout>
+</workout_file>
